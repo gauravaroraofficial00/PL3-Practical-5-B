@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url('https://cdn3.vectorstock.com/i/1000x1000/01/07/abstract-blue-green-background-with-triangles-vector-21640107.jpg');
+            background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+        }
+    </style>
+    <style>
+        div {
+            background-color: lightgrey;
+            width: 110px;
+            height: 50px;
+            border: 5px solid green;
+            padding: 5px;
+            margin: 20px;
+        }
+    </style>
+    <style>
+        div {
+            background-image: url('https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/03/16/35e584f4-46f3-11e9-b5dc-9921d5eb8a6d_image_hires_194000.JPG?itok=RiqWzzUS&v=1552736407');
+        }
+    </style>
+    <h1>CODING WEBSITE</h1>
+</head>
+
+<body>
+    <h2>Problem statement : </h2>
+    <br>
+    <p><marquee>Write a code in any programming language that counts the
+        digits in a number.</marquee></p>
+
+
+    <h2>Program: </h2>
+    <p>
+
+        #include &lt; bits/stdc++.h &gt;<br>
+        using namespace std;<br>
+        int main()<br>
+        {<br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int x;int cnt=0;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cin>>x;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(x==0)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+        while(x)<br>
+        {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cnt++;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x=x/10;<br>
+        }<br>
+        cout&lt;&lt;Number of digits are:&lt;&lt;cnt&lt;&lt;endl;<br>
+        return 0;<br>
+        }<br>
+
+    <div><br>Input:123456</div>
+    <div><br>Output:6</div>
+    <div><br>Variables:x,cnt</div>
+    <div><br>Complexity:O(n)</div>
+
+</body>
+
+</html>
